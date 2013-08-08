@@ -5,5 +5,6 @@ Pod::Spec.new do |s|
     s.summary = 'GCJumpBar'
     s.platform     = :osx,'10.7'
     s.source = { :git => 'https://github.com/peyoo/GCJumpBar.git'}
-    s.source_files = 'GCJumpBar/**/*.{h,m,png}'
+    s.source_files = 'GCJumpBar/**/*.{h,m}'
+    s.resources    = 'GCJumpBar/**/*.png'
 end
